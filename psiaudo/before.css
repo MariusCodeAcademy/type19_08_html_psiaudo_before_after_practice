@@ -19,3 +19,34 @@ body {
   font-size: 14px;
   color: brown;
 }
+
+.dots::before,
+.dots::after {
+  content: ' -- ';
+}
+
+.dash-after {
+  position: relative;
+  margin-bottom: 25px;
+}
+.dash-after::after {
+  content: '';
+  height: 3px;
+  width: 75px;
+  display: block;
+  position: absolute;
+  top: calc(100% + 10px);
+  background-color: tomato;
+}
+
+form input {
+  display: block;
+  width: 100%;
+}
+.error {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+  background-color: tomato;
+  padding: 0.5em 1em;
+}
