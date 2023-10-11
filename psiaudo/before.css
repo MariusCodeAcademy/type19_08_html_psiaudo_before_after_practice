@@ -54,3 +54,13 @@ form input {
 p:empty {
   display: none;
 }
+
+.simple-dash {
+  /* 
+  uzdeti linija po apacia i afteri
+  nenaudoti absolute
+  linija turetu buti 2px storio blue spalvos
+  turetu buti 10px zemiau pavadinimo ir dar 10px atstumti kitu elementus
+  
+  */
+}
