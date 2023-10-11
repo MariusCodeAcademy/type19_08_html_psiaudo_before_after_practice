@@ -32,7 +32,12 @@ a {
 }
 .has-children {
   position: relative;
-  padding-right: 15px;
+  /* padding-right: 15px; */
+}
+.has-children::after {
+  content: '\2913';
+  margin-left: 2px;
+  font-weight: bold;
 }
 .sub-menu {
   top: calc(100% + 25px);
