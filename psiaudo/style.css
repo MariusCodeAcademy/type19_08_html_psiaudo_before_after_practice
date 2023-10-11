@@ -35,3 +35,17 @@ article p:last-of-type,
 article p:nth-last-of-type(1) {
   background-color: gray;
 }
+
+/* psiaudo clases */
+.first-para::first-letter {
+  text-transform: uppercase;
+  font-size: 2.7em;
+  font-weight: bold;
+  /* float: left; */
+}
+.second-para::first-line {
+  font-variant: small-caps;
+}
+.second-para::first-letter {
+  text-transform: uppercase;
+}

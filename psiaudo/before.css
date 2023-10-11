@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.special::before {
+  content: 'I am before -- ';
+  font-size: 14px;
+  color: coral;
+}
+
+.special::after {
+  content: ' -- I am after';
+  font-size: 14px;
+  color: brown;
+}
