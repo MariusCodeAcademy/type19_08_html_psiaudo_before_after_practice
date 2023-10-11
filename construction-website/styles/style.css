@@ -75,10 +75,11 @@ h1 {
 .cards-container {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .card {
   border: 1px solid #eeeeee;
   border-radius: 5px;
   padding: 40px;
-  max-width: 33%;
+  max-width: 31%;
 }
