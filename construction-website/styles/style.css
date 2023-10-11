@@ -1,0 +1,15 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 300px;
+}
+/* hero ---------------------------- */
+.hero-section {
+  /* background: spalva paveikslelis "ar kartoti" pozicijaX pozicijaY */
+  background: url('/img/home-banner.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+/* su flext padeti inner-content i centra  */
+.inner-content {
+  color: white;
+}
