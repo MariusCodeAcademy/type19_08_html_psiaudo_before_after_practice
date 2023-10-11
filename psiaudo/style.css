@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.two li:nth-child(3n + 2) {
+  border: 1px solid #000;
+}
+
+/* nusitaikyti i pirma li el */
+.one li:first-child {
+  background-color: tomato;
+}
+
+/* paskutinis el */
+.one li:last-child {
+  background-color: blue;
+}
+
+/* pataikyti i trecia el */
+.one li:nth-child(3) {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* paskutni paragrafa article tage */
+article p:last-of-type,
+article p:nth-last-of-type(1) {
+  background-color: gray;
+}

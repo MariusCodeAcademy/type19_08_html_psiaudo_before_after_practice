@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #e4e4e4;
+}
+
+.flex-container {
+  min-height: 200px;
+  border: 2px solid #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  /* tarpas tarp elemetu */
+  gap: 25px;
+  /* isdestymas is virsaus i apacia (statmena asimi) */
+  align-items: stretch;
+  align-items: start;
+  align-items: end;
+  align-items: center;
+  /* isdestymas is kaires i desine (pagrindine asimi) */
+  justify-content: end;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: start;
+  justify-content: center;
+}
+.flex-item {
+  border: 1px solid coral;
+  background-color: rgba(255, 127, 80, 0.381);
+  padding: 1em;
+}
+
+.item-1 {
+  min-height: 55px;
+}
+.item-2 {
+  min-height: 100px;
+}
+.item-3 {
+  min-height: 70px;
+}
