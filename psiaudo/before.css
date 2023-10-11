@@ -54,8 +54,17 @@ form input {
 p:empty {
   display: none;
 }
-
 .simple-dash {
+  margin-bottom: 0;
+}
+.simple-dash::after {
+  content: '';
+  height: 2px;
+  width: 150px;
+  background-color: blue;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
   /* 
   uzdeti linija po apacia i afteri
   nenaudoti absolute
