@@ -2,14 +2,42 @@ body {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 300px;
 }
+
+/* bendri stiliai */
+.btn {
+  color: #fab700;
+  background-color: #222;
+  padding: 1.5em 3em;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #fab700;
+  color: #222;
+}
+
 /* hero ---------------------------- */
 .hero-section {
   /* background: spalva paveikslelis "ar kartoti" pozicijaX pozicijaY */
   background: url('/img/home-banner.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* su flext padeti inner-content i centra  */
 .inner-content {
   color: white;
+  max-width: 410px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 60px;
+  margin-bottom: 0.2em;
 }
