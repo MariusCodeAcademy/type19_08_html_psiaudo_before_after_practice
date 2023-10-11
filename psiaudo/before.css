@@ -50,3 +50,7 @@ form input {
   background-color: tomato;
   padding: 0.5em 1em;
 }
+
+p:empty {
+  display: none;
+}
